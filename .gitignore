@@ -1,0 +1,11 @@
+# Directories
+/node_modules/
+
+# Packages
+*.vsix
+
+# Operating system
+.DS_Store
+
+# Working files
+*.sketch
