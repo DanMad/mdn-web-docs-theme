@@ -1,0 +1,47 @@
+{
+  "name": "mdn-web-docs-theme",
+  "displayName": "MDN Web Docs Theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Visual Studio Code theme inspired by MDN Web Docs",
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "Theme"
+  ],
+  "homepage": "https://github.com/danmad/mdn-web-docs-theme#readme",
+  "bugs": {
+    "url": "https://github.com/danmad/mdn-web-docs-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmad/mdn-web-docs-theme"
+  },
+  "license": "MIT",
+  "author": "DanMad",
+  "publisher": "DanMad",
+  "scripts": {
+    "build": "json-stringify src/mdn-web-docs-theme.js --out themes/mdn-web-docs.json",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish",
+    "sort": "sort-package-json"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "MDN Web Docs",
+        "path": "./themes/mdn-web-docs.json",
+        "uiTheme": "vs"
+      }
+    ]
+  },
+  "devDependencies": {
+    "json-stringify-cli": "^1.0.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "sort-package-json": "^1.44.0",
+    "vsce": "^1.74.0"
+  }
+}
