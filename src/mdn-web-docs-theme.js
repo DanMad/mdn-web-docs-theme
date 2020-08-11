@@ -13,9 +13,11 @@ const dustyGrey = `#999`;
 const freshEggplant = `#905`;
 const gallery = `#eee`;
 const limeade = `#690`;
+const malibu = `#83d0f2`;
 const mineshaft = `#333`;
 const sepiaSkin = `#9a6e3a`;
 const slateGrey = `#708090`;
+const tangerine = `#e90`;
 
 // Exports
 // =============================================================================
@@ -606,6 +608,23 @@ module.exports = {
       scope: `string`,
       settings: {
         foreground: deepCerulean
+      }
+    },
+
+    // HTML tokens
+    // -------------------------------------------------------------------------
+    {
+      name: `HTML attributes`,
+      scope: `entity.other.attribute-name.html`,
+      settings: {
+        foreground: limeade
+      }
+    },
+    {
+      name: `HTML tags`,
+      scope: `entity.name.tag.html`,
+      settings: {
+        foreground: freshEggplant
       }
     }
   ],
