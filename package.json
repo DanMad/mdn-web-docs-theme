@@ -9,7 +9,12 @@
     "Other"
   ],
   "keywords": [
-    "Theme"
+    "Light theme",
+    "MDN",
+    "MDN Web Docs",
+    "Mozilla Developer Network",
+    "Theme",
+    "VSCode"
   ],
   "homepage": "https://github.com/danmad/mdn-web-docs-theme#readme",
   "bugs": {
@@ -37,11 +42,25 @@
       }
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^4.2.3",
     "json-stringify-cli": "^1.0.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "sort-package-json": "^1.44.0",
     "vsce": "^1.74.0"
+  },
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#fff",
+    "theme": "light"
   }
 }
