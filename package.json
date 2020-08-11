@@ -12,6 +12,7 @@
     "Light theme",
     "MDN",
     "MDN Web Docs",
+    "Mozilla",
     "Mozilla Developer Network",
     "Theme",
     "VSCode"
@@ -60,7 +61,7 @@
   },
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#fff",
+    "color": "#83d0f2",
     "theme": "light"
   }
 }
