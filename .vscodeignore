@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules/
+
+# Git
+.gitignore
+
+# OS
+.DS_Store
+
+# Settings
+/.vscode/
+
+# Source
+/src/
