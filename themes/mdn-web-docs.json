@@ -1,0 +1,27 @@
+{
+  "colors": {},
+  "name": "MDN Web Docs",
+  "tokenColors": [
+    {
+      "name": "Global comments",
+      "scope": "comment",
+      "settings": { "foreground": "#708090" }
+    },
+    {
+      "name": "Global constants",
+      "scope": "constant",
+      "settings": { "foreground": "#905" }
+    },
+    {
+      "name": "Global entities",
+      "scope": "constant.character.entity",
+      "settings": { "foreground": "#9a6e3a" }
+    },
+    {
+      "name": "Global strings",
+      "scope": "string",
+      "settings": { "foreground": "#07a" }
+    }
+  ],
+  "type": "light"
+}
