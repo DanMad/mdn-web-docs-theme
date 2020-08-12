@@ -3,24 +3,48 @@
   "name": "MDN Web Docs",
   "tokenColors": [
     {
-      "name": "Global comments",
+      "name": "Base comments",
       "scope": "comment",
       "settings": { "foreground": "#708090" }
     },
     {
-      "name": "Global constants",
+      "name": "Base constants",
       "scope": "constant",
       "settings": { "foreground": "#905" }
     },
     {
-      "name": "Global entities",
+      "name": "Base entities",
       "scope": "constant.character.entity",
       "settings": { "foreground": "#9a6e3a" }
     },
     {
-      "name": "Global strings",
+      "name": "Base strings",
       "scope": "string",
       "settings": { "foreground": "#07a" }
+    },
+    {
+      "name": "Base variables",
+      "scope": "variable",
+      "settings": { "foreground": "#e90" }
+    },
+    {
+      "name": "HTML attributes",
+      "scope": "entity.other.attribute-name.html",
+      "settings": { "foreground": "#690" }
+    },
+    {
+      "name": "HTML brackets",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.separator.key-value.html"
+      ],
+      "settings": { "foreground": "#999" }
+    },
+    {
+      "name": "HTML tags",
+      "scope": "entity.name.tag.html",
+      "settings": { "foreground": "#905" }
     }
   ],
   "type": "light"

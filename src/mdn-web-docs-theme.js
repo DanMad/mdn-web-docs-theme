@@ -580,41 +580,41 @@ module.exports = {
   },
   name,
   tokenColors: [
-    // Global tokens
+    // Base tokens
     // -------------------------------------------------------------------------
     {
-      name: `Global comments`,
+      name: `Base comments`,
       scope: `comment`,
       settings: {
         foreground: slateGrey
       }
     },
     {
-      name: `Global constants`,
+      name: `Base constants`,
       scope: `constant`,
       settings: {
         foreground: freshEggplant
       }
     },
     {
-      name: `Global entities`,
+      name: `Base entities`,
       scope: `constant.character.entity`,
       settings: {
         foreground: sepiaSkin
       }
     },
-    // {
-    //   name: `Global punctuation`,
-    //   scope: `punctuation`,
-    //   settings: {
-    //     foreground: dustyGrey
-    //   }
-    // },
     {
-      name: `Global strings`,
+      name: `Base strings`,
       scope: `string`,
       settings: {
         foreground: deepCerulean
+      }
+    },
+    {
+      name: `Base variables`,
+      scope: `variable`,
+      settings: {
+        foreground: tangerine
       }
     },
 
