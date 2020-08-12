@@ -603,6 +603,13 @@ module.exports = {
         foreground: sepiaSkin
       }
     },
+    // {
+    //   name: `Global punctuation`,
+    //   scope: `punctuation`,
+    //   settings: {
+    //     foreground: dustyGrey
+    //   }
+    // },
     {
       name: `Global strings`,
       scope: `string`,
@@ -611,6 +618,9 @@ module.exports = {
       }
     },
 
+    // CSS tokens
+    // -------------------------------------------------------------------------
+
     // HTML tokens
     // -------------------------------------------------------------------------
     {
@@ -618,6 +628,17 @@ module.exports = {
       scope: `entity.other.attribute-name.html`,
       settings: {
         foreground: limeade
+      }
+    },
+    {
+      name: `HTML brackets`,
+      scope: [
+        `punctuation.definition.tag.begin.html`,
+        `punctuation.definition.tag.end.html`,
+        `punctuation.separator.key-value.html`
+      ],
+      settings: {
+        foreground: dustyGrey
       }
     },
     {
