@@ -10,15 +10,6 @@ To install this theme, follow these steps:
 4. Click `Install` on the extension, in the _Extensions_ panel
 5. Select the theme you would like to use, from the two that are available:
 
-## Language support
-
-This theme currently supports the following languages:
-
-- CSS
-- HTML
-- JavaScript
-- JSON
-
 ## Recommended settings
 
 If you'd like to use this theme as intended, copy and paste the recommended settings below into VSCode's settings.json file.
