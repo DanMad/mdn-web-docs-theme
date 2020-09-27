@@ -48,4 +48,4 @@ If you encounter any bugs, please [post an issue](https://github.com/DanMad/mdn-
 
 ## Contributing
 
-Contributions are more than welcome. Ensure you read through the [contributing guidelines](https://github.com/DanMad/mdn-web-docs-theme/blob/release/v1.0.0/CONTRIBUTING.md) before submitting a pull request.
+Contributions are more than welcome. Ensure you read through the [contributing guidelines](https://github.com/DanMad/mdn-web-docs-theme/blob/master/CONTRIBUTING.md) before submitting a pull request.
