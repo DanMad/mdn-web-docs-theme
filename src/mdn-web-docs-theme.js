@@ -60,8 +60,8 @@ module.exports = {
     // 'breadcrumbPicker.background': ``,
     // Button control
     // -------------------------------------------------------------------------
-    // 'button.background': ``,
-    // 'button.foreground': ``,
+    "button.background": freshEggplant,
+    "button.foreground": white,
     // 'button.hoverBackground': ``,
     // 'button.secondaryBackground': ``,
     // 'button.secondaryForeground': ``,
@@ -136,7 +136,7 @@ module.exports = {
     // 'editor.findRangeHighlightBackground': ``,
     // 'editor.findRangeHighlightBorder': ``,
     // 'editor.foldBackground': ``,
-    // 'editor.foreground': ``,
+    "editor.foreground": dustyGrey,
     // 'editor.hoverHighlightBackground': ``,
     // 'editor.inactiveSelectionBackground': ``,
     // 'editor.lineHighlightBackground': ``,
@@ -582,252 +582,255 @@ module.exports = {
   },
   name,
   tokenColors: [
-    // Base tokens
-    // -------------------------------------------------------------------------
-    {
-      name: `Base comments`,
-      scope: `comment`,
-      settings: {
-        foreground: slateGrey
-      }
-    },
-    {
-      name: `Base constants`,
-      scope: `constant`,
-      settings: {
-        foreground: freshEggplant
-      }
-    },
-    {
-      name: `Base entities`,
-      scope: `constant.character.entity`,
-      settings: {
-        foreground: sepiaSkin
-      }
-    },
-    {
-      name: `Base keywords`,
-      scope: `keyword`,
-      settings: {
-        foreground: deepCerulean
-      }
-    },
-    {
-      name: `Base storage`,
-      scope: `storage`,
-      settings: {
-        foreground: deepCerulean
-      }
-    },
-    {
-      name: `Base strings`,
-      scope: `string`,
-      settings: {
-        foreground: deepCerulean
-      }
-    },
-    {
-      name: `Base support`,
-      scope: `support`,
-      settings: {
-        foreground: mineshaft
-      }
-    },
-    {
-      name: `Base variables`,
-      scope: `variable`,
-      settings: {
-        foreground: tangerine
-      }
-    },
-
-    // CSS tokens
-    // -------------------------------------------------------------------------
-    {
-      name: `CSS attributes`,
-      scope: `entity.other.attribute-name.css`,
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `CSS classes`,
-      scope: `entity.other.attribute-name.class.css`,
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `CSS foreground`,
-      scope: `source.css`,
-      settings: {
-        foreground: dustyGrey
-      }
-    },
-    {
-      name: `CSS functions`,
-      scope: [
-        `support.function.calc.css`,
-        `support.function.gradient.css`,
-        `support.function.misc.css`,
-        `support.function.timing-function.css`,
-        `support.function.transform.css`
-      ],
-      settings: {
-        foreground: cabaret
-      }
-    },
+    // // Base tokens
+    // // -------------------------------------------------------------------------
     // {
-    //   name: `CSS entities`,
-    //   scope: `punctuation.definition.entity.css`,
+    //   name: `Base comments`,
+    //   scope: `comment`,
     //   settings: {
-    //     fontStyle: `normal`,
-    //     foreground: heather
+    //     foreground: slateGrey
     //   }
     // },
-    {
-      name: `CSS hexadecimals`,
-      scope: [
-        `constant.other.color.rgb-value.hex.css`,
-        `punctuation.definition.constant.css`
-      ],
-      settings: {
-        foreground: mineshaft
-      }
-    },
-    {
-      name: `CSS ids`,
-      scope: `entity.other.attribute-name.id.css`,
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `CSS important`,
-      scope: `keyword.other.important.css`,
-      settings: {
-        fontStyle: `bold`,
-        foreground: tangerine
-      }
-    },
-    {
-      name: `CSS operators`,
-      scope: [
-        `keyword.operator.arithmetic.css`,
-        `keyword.operator.combinator.css`,
-        `keyword.operator.pattern.css`
-      ],
-      settings: {
-        foreground: sepiaSkin
-      }
-    },
-    {
-      name: `CSS properties`,
-      scope: [
-        `support.type.property-name.css`,
-        `support.type.vendored.property-name.css`
-      ],
-      settings: {
-        foreground: freshEggplant
-      }
-    },
-    {
-      name: `CSS property values`,
-      scope: [
-        `support.constant.color.current.css`,
-        `support.constant.property-value.css`
-      ],
-      settings: {
-        foreground: mineshaft
-      }
-    },
-    {
-      name: `CSS pseudo`,
-      scope: [
-        `entity.other.attribute-name.pseudo-class.css`,
-        `entity.other.attribute-name.pseudo-element.css`
-      ],
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `CSS strings`,
-      scope: [`string.quoted.double.css`, `string.quoted.single.css`],
-      settings: {
-        foreground: sepiaSkin
-      }
-    },
-    {
-      name: `CSS tags`,
-      scope: `entity.name.tag.css`,
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `CSS units`,
-      scope: [
-        `entity.other.keyframe-offset.percentage.css`,
-        `keyword.other.unit.%.css`,
-        `keyword.other.unit.ch.css`,
-        `keyword.other.unit.cm.css`,
-        `keyword.other.unit.deg.css`,
-        `keyword.other.unit.em.css`,
-        `keyword.other.unit.ex.css`,
-        `keyword.other.unit.in.css`,
-        `keyword.other.unit.mm.css`,
-        `keyword.other.unit.ms.css`,
-        `keyword.other.unit.pc.css`,
-        `keyword.other.unit.percentage.css`,
-        `keyword.other.unit.pt.css`,
-        `keyword.other.unit.px.css`,
-        `keyword.other.unit.q.css`,
-        `keyword.other.unit.rem.css`,
-        `keyword.other.unit.s.css`,
-        `keyword.other.unit.vmax.css`,
-        `keyword.other.unit.vmin.css`,
-        `keyword.other.unit.vh.css`,
-        `keyword.other.unit.vw.css`
-      ],
-      settings: {
-        foreground: mineshaft
-      }
-    },
-
-    // HTML tokens
-    // -------------------------------------------------------------------------
-    {
-      name: `HTML attributes`,
-      scope: `entity.other.attribute-name.html`,
-      settings: {
-        foreground: limeade
-      }
-    },
-    {
-      name: `HTML brackets`,
-      scope: [
-        // maybe move ??
-        "punctuation.definition.string.begin.html",
-        "punctuation.definition.string.end.html",
-
-        `punctuation.definition.tag.begin.html`,
-        `punctuation.definition.tag.end.html`,
-
-        // maybe move ??
-        `punctuation.separator.key-value.html`
-      ],
-      settings: {
-        foreground: dustyGrey
-      }
-    },
-    {
-      name: `HTML tags`,
-      scope: `entity.name.tag.html`,
-      settings: {
-        foreground: freshEggplant
-      }
-    }
+    // {
+    //   name: `Base constants`,
+    //   scope: `constant`,
+    //   settings: {
+    //     foreground: freshEggplant
+    //   }
+    // },
+    // {
+    //   name: `Base entities`,
+    //   scope: `constant.character.entity`,
+    //   settings: {
+    //     foreground: sepiaSkin
+    //   }
+    // },
+    // {
+    //   name: `Base keywords`,
+    //   scope: `keyword`,
+    //   settings: {
+    //     foreground: deepCerulean
+    //   }
+    // },
+    // {
+    //   name: `Base storage`,
+    //   scope: `storage`,
+    //   settings: {
+    //     foreground: deepCerulean
+    //   }
+    // },
+    // {
+    //   name: `Base strings`,
+    //   scope: `string`,
+    //   settings: {
+    //     foreground: deepCerulean
+    //   }
+    // },
+    // {
+    //   name: `Base support`,
+    //   scope: `support`,
+    //   settings: {
+    //     foreground: mineshaft
+    //   }
+    // },
+    // {
+    //   name: `Base variables`,
+    //   scope: `variable`,
+    //   settings: {
+    //     foreground: tangerine
+    //   }
+    // },
+    // // CSS tokens
+    // // -------------------------------------------------------------------------
+    // {
+    //   name: `CSS animations`,
+    //   scope: `variable.parameter.keyframe-list.css`,
+    //   settings: {
+    //     foreground: deepCerulean
+    //   }
+    // },
+    // {
+    //   name: `CSS animation keyframes`,
+    //   scope: [
+    //     `entity.other.keyframe-offset.css`,
+    //     `entity.other.keyframe-offset.percentage.css`
+    //   ],
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS attributes`,
+    //   scope: `entity.other.attribute-name.css`,
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS classes`,
+    //   scope: `entity.other.attribute-name.class.css`,
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS functions`,
+    //   scope: [
+    //     `support.function.calc.css`,
+    //     `support.function.gradient.css`,
+    //     `support.function.misc.css`,
+    //     `support.function.timing-function.css`,
+    //     `support.function.transform.css`
+    //   ],
+    //   settings: {
+    //     foreground: cabaret
+    //   }
+    // },
+    // {
+    //   name: `CSS hexadecimals`,
+    //   scope: [
+    //     `constant.other.color.rgb-value.hex.css`,
+    //     `punctuation.definition.constant.css`
+    //   ],
+    //   settings: {
+    //     foreground: mineshaft
+    //   }
+    // },
+    // {
+    //   name: `CSS ids`,
+    //   scope: `entity.other.attribute-name.id.css`,
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS important`,
+    //   scope: `keyword.other.important.css`,
+    //   settings: {
+    //     fontStyle: `bold`,
+    //     foreground: tangerine
+    //   }
+    // },
+    // {
+    //   name: `CSS operators`,
+    //   scope: [
+    //     `keyword.operator.arithmetic.css`,
+    //     `keyword.operator.combinator.css`,
+    //     `keyword.operator.pattern.css`
+    //   ],
+    //   settings: {
+    //     foreground: sepiaSkin
+    //   }
+    // },
+    // {
+    //   name: `CSS properties`,
+    //   scope: [
+    //     `support.type.property-name.css`,
+    //     `support.type.vendored.property-name.css`
+    //   ],
+    //   settings: {
+    //     foreground: freshEggplant
+    //   }
+    // },
+    // {
+    //   name: `CSS property values`,
+    //   scope: [
+    //     `meta.property-value.css`,
+    //     `support.constant.color.current.css`,
+    //     `support.constant.property-value.css`
+    //   ],
+    //   settings: {
+    //     foreground: mineshaft
+    //   }
+    // },
+    // {
+    //   name: `CSS pseudo`,
+    //   scope: [
+    //     `entity.other.attribute-name.pseudo-class.css`,
+    //     `entity.other.attribute-name.pseudo-element.css`
+    //   ],
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS strings`,
+    //   scope: [`string.quoted.double.css`, `string.quoted.single.css`],
+    //   settings: {
+    //     foreground: sepiaSkin
+    //   }
+    // },
+    // {
+    //   name: `CSS tags`,
+    //   scope: `entity.name.tag.css`,
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `CSS units`,
+    //   scope: [
+    //     `keyword.other.unit.%.css`,
+    //     `keyword.other.unit.ch.css`,
+    //     `keyword.other.unit.cm.css`,
+    //     `keyword.other.unit.deg.css`,
+    //     `keyword.other.unit.em.css`,
+    //     `keyword.other.unit.ex.css`,
+    //     `keyword.other.unit.in.css`,
+    //     `keyword.other.unit.mm.css`,
+    //     `keyword.other.unit.ms.css`,
+    //     `keyword.other.unit.pc.css`,
+    //     `keyword.other.unit.percentage.css`,
+    //     `keyword.other.unit.pt.css`,
+    //     `keyword.other.unit.px.css`,
+    //     `keyword.other.unit.q.css`,
+    //     `keyword.other.unit.rem.css`,
+    //     `keyword.other.unit.s.css`,
+    //     `keyword.other.unit.vmax.css`,
+    //     `keyword.other.unit.vmin.css`,
+    //     `keyword.other.unit.vh.css`,
+    //     `keyword.other.unit.vw.css`
+    //   ],
+    //   settings: {
+    //     foreground: mineshaft
+    //   }
+    // },
+    // // HTML tokens
+    // // -------------------------------------------------------------------------
+    // {
+    //   name: `HTML attributes`,
+    //   scope: `entity.other.attribute-name.html`,
+    //   settings: {
+    //     foreground: limeade
+    //   }
+    // },
+    // {
+    //   name: `HTML brackets`,
+    //   scope: [
+    //     `punctuation.definition.string.begin.html`,
+    //     `punctuation.definition.string.end.html`,
+    //     `punctuation.definition.tag.begin.html`,
+    //     `punctuation.definition.tag.end.html`,
+    //     `punctuation.separator.key-value.html`
+    //   ],
+    //   settings: {
+    //     foreground: dustyGrey
+    //   }
+    // },
+    // {
+    //   name: `HTML foreground`,
+    //   scope: `text.html.derivative`,
+    //   settings: {
+    //     foreground: mineshaft
+    //   }
+    // },
+    // {
+    //   name: `HTML tags`,
+    //   scope: `entity.name.tag.html`,
+    //   settings: {
+    //     foreground: freshEggplant
+    //   }
+    // }
   ],
   type
 };
