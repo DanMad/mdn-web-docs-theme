@@ -30,7 +30,8 @@
   "author": "DanMad",
   "publisher": "DanMad",
   "scripts": {
-    "build": "json-stringify src/mdn-web-docs-theme.js --out themes/mdn-web-docs.json",
+    "build": "npm run build:mdn-web-docs-theme && npm run sort-package",
+    "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js --out themes/mdn-web-docs.json",
     "package": "npx vsce package",
     "publish": "npx vsce publish",
     "sort-package": "sort-package-json"
