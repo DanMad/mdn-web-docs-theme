@@ -1,4 +1,6 @@
 # Artwork
+*.fig
+*.psd
 *.sketch
 
 # Dependencies
@@ -14,4 +16,5 @@ node_modules
 .vscode
 
 # Source
+images
 src
