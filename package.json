@@ -1,6 +1,6 @@
 {
   "name": "mdn-web-docs-theme",
-  "displayName": "MDN Web Docs Theme",
+  "displayName": "MDN's Web Docs Theme",
   "version": "1.0.0",
   "private": true,
   "description": "A Visual Studio Code theme inspired by MDN's Web Docs",
