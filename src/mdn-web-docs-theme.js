@@ -41,20 +41,20 @@ module.exports = {
   colors: {
     // Activity bar
     // -------------------------------------------------------------------------
-    "activityBar.activeBackground": gallery,
-    "activityBar.activeBorder": calyspo,
-    "activityBar.activeFocusBorder": calyspo,
-    "activityBar.background": white,
-    "activityBar.border": geyser,
-    "activityBar.foreground": mineshaft,
-    "activityBar.inactiveForeground": mineshaft,
-    "activityBarBadge.background": malibu,
-    "activityBarBadge.foreground": mineshaft,
+    'activityBar.activeBackground': gallery,
+    'activityBar.activeBorder': calyspo,
+    'activityBar.activeFocusBorder': calyspo,
+    'activityBar.background': white,
+    'activityBar.border': geyser,
+    'activityBar.foreground': mineshaft,
+    'activityBar.inactiveForeground': mineshaft,
+    'activityBarBadge.background': malibu,
+    'activityBarBadge.foreground': mineshaft,
 
     // Badge colors
     // -------------------------------------------------------------------------
-    "badge.background": malibu,
-    "badge.foreground": mineshaft,
+    'badge.background': malibu,
+    'badge.foreground': mineshaft,
 
     // Base colors
     // -------------------------------------------------------------------------
@@ -62,25 +62,25 @@ module.exports = {
     // errorForeground: ``,
     focusBorder: transparent,
     foreground: mineshaft,
-    "icon.foreground": mineshaft,
+    'icon.foreground': mineshaft,
     // 'selection.background': ``,
-    "widget.shadow": grey,
+    'widget.shadow': grey,
 
     // Breadcrumbs colors
     // -------------------------------------------------------------------------
-    "breadcrumb.activeSelectionForeground": mineshaft,
-    "breadcrumb.focusForeground": calyspo,
-    "breadcrumb.foreground": calyspo,
-    "breadcrumbPicker.background": white,
+    'breadcrumb.activeSelectionForeground': mineshaft,
+    'breadcrumb.focusForeground': calyspo,
+    'breadcrumb.foreground': calyspo,
+    'breadcrumbPicker.background': white,
 
     // Button control
     // -------------------------------------------------------------------------
-    "button.background": scienceBlue,
-    "button.foreground": white,
+    'button.background': scienceBlue,
+    'button.foreground': white,
     // 'button.hoverBackground': ``,
-    "checkbox.background": white,
-    "checkbox.border": geyser,
-    "checkbox.foreground": mineshaft,
+    'checkbox.background': white,
+    'checkbox.border': geyser,
+    'checkbox.foreground': mineshaft,
 
     // Debug colors
     // -------------------------------------------------------------------------
@@ -106,11 +106,11 @@ module.exports = {
     // 'debugConsole.sourceForeground': ``,
     // 'debugConsole.warningForeground': ``,
     // 'debugConsoleInputIcon.foreground': ``,
-    "debugIcon.breakpointCurrentStackframeForeground": scienceBlue,
-    "debugIcon.breakpointDisabledForeground": scienceBlue,
-    "debugIcon.breakpointForeground": scienceBlue,
-    "debugIcon.breakpointStackframeForeground": scienceBlue,
-    "debugIcon.breakpointUnverifiedForeground": scienceBlue,
+    'debugIcon.breakpointCurrentStackframeForeground': scienceBlue,
+    'debugIcon.breakpointDisabledForeground': scienceBlue,
+    'debugIcon.breakpointForeground': scienceBlue,
+    'debugIcon.breakpointStackframeForeground': scienceBlue,
+    'debugIcon.breakpointUnverifiedForeground': scienceBlue,
     // 'debugIcon.continueForeground': ``,
     // 'debugIcon.disconnectForeground': ``,
     // 'debugIcon.pauseForeground': ``,
@@ -124,23 +124,23 @@ module.exports = {
 
     // Diff editor colors
     // -------------------------------------------------------------------------
-    "diffEditor.border": geyser,
-    "diffEditor.diagonalFill": geyser,
-    "diffEditor.insertedTextBackground": limeade + subtle,
-    "diffEditor.insertedTextBorder": transparent,
-    "diffEditor.removedTextBackground": freshEggplant + subtle,
-    "diffEditor.removedTextBorder": transparent,
+    'diffEditor.border': geyser,
+    'diffEditor.diagonalFill': geyser,
+    'diffEditor.insertedTextBackground': limeade + subtle,
+    'diffEditor.insertedTextBorder': transparent,
+    'diffEditor.removedTextBackground': freshEggplant + subtle,
+    'diffEditor.removedTextBorder': transparent,
 
     // Dropdown control
     // -------------------------------------------------------------------------
-    "dropdown.background": white,
-    "dropdown.border": geyser,
-    "dropdown.listBackground": white,
-    "dropdown.foreground": calyspo,
+    'dropdown.background': white,
+    'dropdown.border': geyser,
+    'dropdown.listBackground': white,
+    'dropdown.foreground': calyspo,
 
     // Editor colors
     // -------------------------------------------------------------------------
-    "editor.background": gallery,
+    'editor.background': gallery,
     // 'editor.findMatchBackground': ``,
     // 'editor.findMatchBorder': ``,
     // 'editor.findMatchHighlightBackground': ``,
@@ -165,18 +165,18 @@ module.exports = {
     // 'editor.wordHighlightBorder': ``,
     // 'editor.wordHighlightStrongBackground': ``,
     // 'editor.wordHighlightStrongBorder': ``,
-    "editorBracketMatch.background": transparent,
-    "editorBracketMatch.border": scienceBlue,
-    "editorCursor.foreground": scienceBlue,
+    'editorBracketMatch.background': transparent,
+    'editorBracketMatch.border': scienceBlue,
+    'editorCursor.foreground': scienceBlue,
     // 'editorCodeLens.foreground': ``,
     // 'editorError.border': ``,
     // 'editorError.foreground': ``,
-    "editorGutter.addedBackground": limeade,
-    "editorGutter.background": transparent,
-    "editorGutter.commentRangeForeground": slateGrey,
-    "editorGutter.deletedBackground": freshEggplant,
+    'editorGutter.addedBackground': limeade,
+    'editorGutter.background': transparent,
+    'editorGutter.commentRangeForeground': slateGrey,
+    'editorGutter.deletedBackground': freshEggplant,
     // 'editorGutter.foldingControlForeground': ``,
-    "editorGutter.modifiedBackground": malibu,
+    'editorGutter.modifiedBackground': malibu,
     // 'editorHint.border': ``,
     // 'editorHint.foreground': ``,
     // 'editorIndentGuide.activeBackground': ``,
@@ -184,9 +184,9 @@ module.exports = {
     // 'editorInfo.border': ``,
     // 'editorInfo.foreground': ``,
     // "editorLineNumber.activeForeground": slateGrey,
-    "editorLineNumber.foreground": dustyGrey,
-    "editorLightBulb.foreground": scienceBlue,
-    "editorLightBulbAutoFix.foreground": scienceBlue,
+    'editorLineNumber.foreground': dustyGrey,
+    'editorLightBulb.foreground': scienceBlue,
+    'editorLightBulbAutoFix.foreground': scienceBlue,
     // 'editorLink.activeForeground': ``,
     // 'editorOverviewRuler.addedForeground': ``,
     // 'editorOverviewRuler.background': ``,
@@ -290,10 +290,10 @@ module.exports = {
 
     // Input control
     // -------------------------------------------------------------------------
-    "input.background": white,
-    "input.border": geyser,
-    "input.foreground": mineshaft,
-    "input.placeholderForeground": grey,
+    'input.background': white,
+    'input.border': geyser,
+    'input.foreground': mineshaft,
+    'input.placeholderForeground': grey,
     // 'inputOption.activeBackground': ``,
     // 'inputOption.activeBorder': ``,
     // 'inputOption.activeForeground': ``,
@@ -322,9 +322,9 @@ module.exports = {
     // 'terminal.ansiRed': ``,
     // 'terminal.ansiWhite': ``,
     // 'terminal.ansiYellow': ``,
-    "terminal.background": black,
-    "terminal.border": geyser,
-    "terminal.foreground": white,
+    'terminal.background': black,
+    'terminal.border': geyser,
+    'terminal.foreground': white,
     // 'terminal.selectionBackground': ``,
     // 'terminalCursor.background': ``,
     // 'terminalCursor.foreground': ``,
@@ -395,7 +395,7 @@ module.exports = {
 
     // Notification colors
     // -------------------------------------------------------------------------
-    "notification.background": white,
+    'notification.background': white,
     // 'notification.buttonBackground': ``,
     // 'notification.buttonForeground': ``,
     // 'notification.buttonHoverBackground': ``,
@@ -419,16 +419,16 @@ module.exports = {
     // 'notificationToast.border': ``,
     // Panel colors
     // -------------------------------------------------------------------------
-    "panel.background": white,
-    "panel.border": geyser,
+    'panel.background': white,
+    'panel.border': geyser,
     // 'panelInput.border': freshEggplant,
     // 'panelSection.border': freshEggplant,
-    "panelSectionHeader.background": `#f0f`,
+    'panelSectionHeader.background': `#f0f`,
     // 'panelSectionHeader.border': ``,
     // 'panelSectionHeader.foreground': ``,
-    "panelTitle.activeBorder": mineshaft,
-    "panelTitle.activeForeground": mineshaft,
-    "panelTitle.inactiveForeground": calyspo,
+    'panelTitle.activeBorder': mineshaft,
+    'panelTitle.activeForeground': mineshaft,
+    'panelTitle.inactiveForeground': calyspo,
 
     // Peek view colors
     // -------------------------------------------------------------------------
@@ -449,22 +449,22 @@ module.exports = {
 
     // Preview colors
     // -------------------------------------------------------------------------
-    "imagePreview.border": geyser,
+    'imagePreview.border': geyser,
 
     // Progress bar
     // -------------------------------------------------------------------------
-    "progressBar.background": calyspo,
+    'progressBar.background': calyspo,
 
     // Quick picker colors
     // -------------------------------------------------------------------------
-    "pickerGroup.border": grey,
-    "pickerGroup.foreground": calyspo,
-    "quickInput.foreground": mineshaft,
-    "quickInputTitle.background": white,
+    'pickerGroup.border': grey,
+    'pickerGroup.foreground': calyspo,
+    'quickInput.foreground': mineshaft,
+    'quickInputTitle.background': white,
 
     // Scrollbar control
     // -------------------------------------------------------------------------
-    "scrollbar.shadow": grey, // transparent?
+    'scrollbar.shadow': grey, // transparent?
     // 'scrollbarSlider.activeBackground': ``,
     // 'scrollbarSlider.background': ``,
     // 'scrollbarSlider.hoverBackground': ``,
@@ -489,13 +489,13 @@ module.exports = {
 
     // Side bar
     // -------------------------------------------------------------------------
-    "sideBar.background": gallery,
-    "sideBar.border": geyser,
-    "sideBar.foreground": calyspo,
-    "sideBarSectionHeader.background": gallery,
-    "sideBarSectionHeader.border": transparent,
-    "sideBarSectionHeader.foreground": calyspo,
-    "sideBarTitle.foreground": mineshaft,
+    'sideBar.background': gallery,
+    'sideBar.border': geyser,
+    'sideBar.foreground': calyspo,
+    'sideBarSectionHeader.background': gallery,
+    'sideBarSectionHeader.border': transparent,
+    'sideBarSectionHeader.foreground': calyspo,
+    'sideBarTitle.foreground': mineshaft,
 
     // Snippets colors
     // -------------------------------------------------------------------------
@@ -506,7 +506,7 @@ module.exports = {
 
     // Source control colors
     // -------------------------------------------------------------------------
-    "scm.providerBorder": geyser,
+    'scm.providerBorder': geyser,
 
     // Status bar colors
     // -------------------------------------------------------------------------
@@ -565,30 +565,30 @@ module.exports = {
     // -------------------------------------------------------------------------
     // 'textBlockQuote.background': ``,
     // 'textBlockQuote.border': ``,
-    "textCodeBlock.background": alto + striking,
-    "textLink.activeForeground": calyspo,
-    "textLink.foreground": calyspo,
-    "textPreformat.foreground": mineshaft,
+    'textCodeBlock.background': alto + striking,
+    'textLink.activeForeground': calyspo,
+    'textLink.foreground': calyspo,
+    'textPreformat.foreground': mineshaft,
     // 'textSeparator.foreground': ``,
 
     // Title bar colors
     // -------------------------------------------------------------------------
-    "titleBar.activeBackground": mineshaft,
-    "titleBar.activeForeground": white,
-    "titleBar.border": mineshaft,
-    "titleBar.inactiveBackground": mineshaft,
-    "titleBar.inactiveForeground": white,
+    'titleBar.activeBackground': mineshaft,
+    'titleBar.activeForeground': white,
+    'titleBar.border': mineshaft,
+    'titleBar.inactiveBackground': mineshaft,
+    'titleBar.inactiveForeground': white,
 
     // Welcome page colors
     // -------------------------------------------------------------------------
-    "walkThrough.embeddedEditorBackground": gallery,
-    "welcomePage.background": white,
-    "welcomePage.buttonBackground": scienceBlue,
+    'walkThrough.embeddedEditorBackground': gallery,
+    'welcomePage.background': white,
+    'welcomePage.buttonBackground': scienceBlue,
 
     // Window border
     // -------------------------------------------------------------------------
-    "window.activeBorder": dustyGrey,
-    "window.inactiveBorder": dustyGrey
+    'window.activeBorder': dustyGrey,
+    'window.inactiveBorder': dustyGrey,
   },
   name,
   tokenColors: [
@@ -598,57 +598,57 @@ module.exports = {
       name: `Base comments`,
       scope: `comment`,
       settings: {
-        foreground: slateGrey
-      }
+        foreground: slateGrey,
+      },
     },
     {
       name: `Base constants`,
       scope: `constant`,
       settings: {
-        foreground: freshEggplant
-      }
+        foreground: freshEggplant,
+      },
     },
     {
       name: `Base entities`,
       scope: `constant.character.entity`,
       settings: {
-        foreground: sepiaSkin
-      }
+        foreground: sepiaSkin,
+      },
     },
     {
       name: `Base keywords`,
       scope: `keyword`,
       settings: {
-        foreground: deepCerulean
-      }
+        foreground: deepCerulean,
+      },
     },
     {
       name: `Base storage`,
       scope: `storage`,
       settings: {
-        foreground: deepCerulean
-      }
+        foreground: deepCerulean,
+      },
     },
     {
       name: `Base strings`,
       scope: `string`,
       settings: {
-        foreground: deepCerulean
-      }
+        foreground: deepCerulean,
+      },
     },
     {
       name: `Base support`,
       scope: `support`,
       settings: {
-        foreground: mineshaft
-      }
+        foreground: mineshaft,
+      },
     },
     {
       name: `Base variables`,
       scope: `variable`,
       settings: {
-        foreground: tangerine
-      }
+        foreground: tangerine,
+      },
     },
 
     // CSS tokens
@@ -657,32 +657,32 @@ module.exports = {
       name: `CSS animations`,
       scope: `variable.parameter.keyframe-list.css`,
       settings: {
-        foreground: deepCerulean
-      }
+        foreground: deepCerulean,
+      },
     },
     {
       name: `CSS animation keyframes`,
       scope: [
         `entity.other.keyframe-offset.css`,
-        `entity.other.keyframe-offset.percentage.css`
+        `entity.other.keyframe-offset.percentage.css`,
       ],
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS attributes`,
       scope: `entity.other.attribute-name.css`,
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS classes`,
       scope: `entity.other.attribute-name.class.css`,
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS functions`,
@@ -691,92 +691,92 @@ module.exports = {
         `support.function.gradient.css`,
         `support.function.misc.css`,
         `support.function.timing-function.css`,
-        `support.function.transform.css`
+        `support.function.transform.css`,
       ],
       settings: {
-        foreground: cabaret
-      }
+        foreground: cabaret,
+      },
     },
     {
       name: `CSS hexadecimals`,
       scope: [
         `constant.other.color.rgb-value.hex.css`,
-        `punctuation.definition.constant.css`
+        `punctuation.definition.constant.css`,
       ],
       settings: {
-        foreground: mineshaft
-      }
+        foreground: mineshaft,
+      },
     },
     {
       name: `CSS ids`,
       scope: `entity.other.attribute-name.id.css`,
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS important`,
       scope: `keyword.other.important.css`,
       settings: {
         fontStyle: `bold`,
-        foreground: tangerine
-      }
+        foreground: tangerine,
+      },
     },
     {
       name: `CSS operators`,
       scope: [
         `keyword.operator.arithmetic.css`,
         `keyword.operator.combinator.css`,
-        `keyword.operator.pattern.css`
+        `keyword.operator.pattern.css`,
       ],
       settings: {
-        foreground: sepiaSkin
-      }
+        foreground: sepiaSkin,
+      },
     },
     {
       name: `CSS properties`,
       scope: [
         `support.type.property-name.css`,
-        `support.type.vendored.property-name.css`
+        `support.type.vendored.property-name.css`,
       ],
       settings: {
-        foreground: freshEggplant
-      }
+        foreground: freshEggplant,
+      },
     },
     {
       name: `CSS property values`,
       scope: [
         `meta.property-value.css`,
         `support.constant.color.current.css`,
-        `support.constant.property-value.css`
+        `support.constant.property-value.css`,
       ],
       settings: {
-        foreground: mineshaft
-      }
+        foreground: mineshaft,
+      },
     },
     {
       name: `CSS pseudo`,
       scope: [
         `entity.other.attribute-name.pseudo-class.css`,
-        `entity.other.attribute-name.pseudo-element.css`
+        `entity.other.attribute-name.pseudo-element.css`,
       ],
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS strings`,
       scope: [`string.quoted.double.css`, `string.quoted.single.css`],
       settings: {
-        foreground: sepiaSkin
-      }
+        foreground: sepiaSkin,
+      },
     },
     {
       name: `CSS tags`,
       scope: `entity.name.tag.css`,
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `CSS units`,
@@ -800,11 +800,11 @@ module.exports = {
         `keyword.other.unit.vmax.css`,
         `keyword.other.unit.vmin.css`,
         `keyword.other.unit.vh.css`,
-        `keyword.other.unit.vw.css`
+        `keyword.other.unit.vw.css`,
       ],
       settings: {
-        foreground: mineshaft
-      }
+        foreground: mineshaft,
+      },
     },
 
     // HTML tokens
@@ -813,8 +813,8 @@ module.exports = {
       name: `HTML attributes`,
       scope: `entity.other.attribute-name.html`,
       settings: {
-        foreground: limeade
-      }
+        foreground: limeade,
+      },
     },
     {
       name: `HTML brackets`,
@@ -823,26 +823,26 @@ module.exports = {
         `punctuation.definition.string.end.html`,
         `punctuation.definition.tag.begin.html`,
         `punctuation.definition.tag.end.html`,
-        `punctuation.separator.key-value.html`
+        `punctuation.separator.key-value.html`,
       ],
       settings: {
-        foreground: dustyGrey
-      }
+        foreground: dustyGrey,
+      },
     },
     {
       name: `HTML foreground`,
       scope: `text.html.derivative`,
       settings: {
-        foreground: mineshaft
-      }
+        foreground: mineshaft,
+      },
     },
     {
       name: `HTML tags`,
       scope: `entity.name.tag.html`,
       settings: {
-        foreground: freshEggplant
-      }
-    }
+        foreground: freshEggplant,
+      },
+    },
   ],
-  type
+  type,
 };
