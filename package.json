@@ -28,7 +28,6 @@
     "build": "yarn build:mdn-web-docs-theme",
     "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js --out themes/mdn-web-docs.json",
     "package": "npx vsce package",
-    "prepare": "husky install",
     "publish": "npx vsce publish",
     "sort-package": "sort-package-json"
   },
