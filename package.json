@@ -25,11 +25,9 @@
   "author": "DanMad",
   "publisher": "DanMad",
   "scripts": {
-    "build": "yarn build:mdn-web-docs-theme",
-    "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js --out themes/mdn-web-docs.json",
-    "package": "npx vsce package",
-    "publish": "npx vsce publish",
-    "sort-package": "sort-package-json"
+    "build": "rm -rf themes/** && yarn build:mdn-web-docs-theme",
+    "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js -o themes/mdn-web-docs.json",
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
