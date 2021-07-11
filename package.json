@@ -25,7 +25,7 @@
   "author": "DanMad",
   "publisher": "DanMad",
   "scripts": {
-    "build": "rm -rf themes/** && yarn build:mdn-web-docs-theme",
+    "build": "rm -rf themes && mkdir themes && yarn build:mdn-web-docs-theme",
     "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js -o themes/mdn-web-docs.json",
     "publish": "vsce publish"
   },
