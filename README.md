@@ -44,7 +44,7 @@ If you'd like to use this theme as intended, copy and paste the recommended sett
 
 ## Issues
 
-If you encounter any bugs, please [post an issue](https://github.com/DanMad/mdn-web-docs-theme/issues).
+If you encounter any bugs, please [post an issue](https://github.com/DanMad/mdn-web-docs-theme/issues/new).
 
 ## Contributing
 
