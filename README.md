@@ -8,7 +8,7 @@ To install this theme, follow these steps:
 2. Press `cmd` + `p` if you're running Mac OS, or `ctrl` + `p` if you're running Windows OS to open the _Command Palette_
 3. Paste `ext install mdn-web-docs-theme` into the _Command Palette_ and press `return`
 4. Click `Install` on the extension, in the _Extensions_ panel
-5. Select the theme you would like to use, from the two that are available:
+5. Select the `MDN Web Docs Theme`.
 
 ## Recommended settings
 
@@ -37,10 +37,6 @@ If you'd like to use this theme as intended, copy and paste the recommended sett
   "workbench.startupEditor": "newUntitledFile",
 }
 ```
-
-## Font
-
-## Additional information
 
 ## Issues
 
