@@ -20,7 +20,10 @@
   ],
   "homepage": "https://marketplace.visualstudio.com/items?itemName=DanMad.mdn-web-docs-theme",
   "bugs": "https://github.com/DanMad/mdn-web-docs-theme/issues",
-  "repository": "https://github.com/DanMad/mdn-web-docs-theme.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanMad/mdn-web-docs-theme.git"
+  },
   "license": "MIT",
   "author": "DanMad",
   "publisher": "DanMad",
