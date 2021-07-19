@@ -28,11 +28,11 @@
   "author": "DanMad",
   "publisher": "DanMad",
   "scripts": {
-    "bootstrap": "yarn install && husky install && chmod +x .husky/*",
+    "bootstrap": "rm -rf node_modules && yarn install && husky install && chmod +x .husky/*",
     "build": "rm -rf themes && mkdir themes && yarn build:mdn-web-docs-theme",
     "build:mdn-web-docs-theme": "json-stringify src/mdn-web-docs-theme.js -o themes/mdn-web-docs.json",
-    "format": "sort-package-json && prettier --write \"**/*\"",
-    "publish": "vsce publish"
+    "deploy": "vsce publish",
+    "format": "sort-package-json && prettier --write \"**/*\""
   },
   "contributes": {
     "themes": [
